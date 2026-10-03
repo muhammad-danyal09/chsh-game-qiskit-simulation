@@ -1,4 +1,4 @@
-# CHSH Game: Classical vs Quantum Strategies
+# Quantum Advantage in the CHSH Game: A Qiskit Simulation of Classical and Entangled Strategies
 
 Qiskit implementation of the CHSH nonlocal game, comparing classical strategies (capped at 75%) with an entanglement-assisted quantum strategy (about 85%).
 
