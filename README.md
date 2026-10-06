@@ -13,7 +13,7 @@ Qiskit implementation of the CHSH nonlocal game, comparing classical strategies 
 5. [Results](#5-results)
 6. [Merits and Demerits](#6-merits-and-demerits)
 7. [Getting Started](#7-getting-started)
-8. [References](#8-references)
+8. [Conclusion](#8-conclusion)
 
 ## 1. Overview
 
@@ -103,12 +103,7 @@ jupyter notebook CHSH_Game.ipynb
 
 Image links are relative, so they render on GitHub as long as `images/` sits next to `README.md`.
 
-## 8. References
+## 8. Conclusion
+This project shows that quantum strategy can beat the best classical strategies in the CHSH game. Adding randomness to a classical strategies doesn't help, so classical winning probability stays at a maximum 75%.
 
-1. J. F. Clauser, M. A. Horne, A. Shimony, R. A. Holt, *Phys. Rev. Lett.* 23, 880 (1969).
-2. B. S. Tsirelson, *Lett. Math. Phys.* 4, 93 (1980).
-3. Qiskit documentation: https://docs.quantum.ibm.com
-
----
-
-**Author:** Muhammad Danyal
+With entanglement, Alice and Bob reached about ≈ 85% without communicating. This is the highest any quantum strategy can achieve (Tsirelson's bound), and it demonstrate that entanglement creates correlations no classical strategy can reproduce.
